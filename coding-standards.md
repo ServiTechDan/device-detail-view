@@ -1,0 +1,18 @@
+**Coding Standards:**
+- Must meet SOLID principles
+	- must abstract dependencies
+- Adhere to Functional Programming standards
+	- link to Functional Programming reference
+	- you must use immutable references (CONST)
+		- the use of VAR or LET will be challenged
+	- Variables are created, referenced and then destroyed
+	- If variables need to be modified, you create new, and destroy the old one (goes out of scope)
+	- A function accepts a value and always returns a result
+	- All deconstructed object keys shall have a default value
+- **Minimal code execution pathways**
+- Using the provided basic React Project
+- React State Hook (No REDUX)
+	- useState, useRef (when you don't want to trigger a redraw), useEffect
+- Use Javascript and HTML
+	- (optional) style using the provided CSS
+- Using Typescript for object definitions
